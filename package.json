@@ -1,0 +1,22 @@
+{
+  "name": "web.scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/bot.js",
+  "scripts": {
+		"start": "nodemon",
+		"scraper": "nodemon server/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "telegraf": "^3.27.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
